@@ -8,14 +8,14 @@ on:
       - 'bell_rotation.py'
       - 'test_function.py'
       - 'requirements_optimized.txt'
-      - '.github/workflows/test_bell_rotation.yml'
+      - '.github/workflows/python-package-conda.yml'
   pull_request:
     branches: [main, master]
     paths:
       - 'bell_rotation.py'
       - 'test_function.py'
       - 'requirements_optimized.txt'
-      - '.github/workflows/test_bell_rotation.yml'
+      - '.github/workflows/python-package-conda.yml'
 
 jobs:
   test:
