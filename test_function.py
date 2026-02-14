@@ -239,7 +239,7 @@ def test_bell_rotation():
             #print(np.round(U2,2))
             diff = np.linalg.norm(U1 - U2)
             diff2 = np.linalg.norm(U3 - U2)
-            assert abs(diff) < 1e-10
+            assert abs(diff) < 1e-12
             #if abs(diff) > 1e-10:
             #    print("Circuit operator doesn't match the real matrix")
             #    break
